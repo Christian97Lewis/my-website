@@ -64,21 +64,42 @@ h2 {
     display: block;
 }
 
-.project-container {
-    padding-top: 10px;
-    padding-bottom: 10px!important;
-    background-color: white;
-    width:100%;
+.project-banner {
+    background: url("images/code-background.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.project-banner-text {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 2em;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     text-align: center;
 }
 
-.project-container img {
-    height: 200px;
-    width: auto;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+.project-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 35px;
+    background-color: white;
+    width:100%;
+}
+
+.project-imgs {
+    height: 350px;
+}
+
+.project-imgs-child {
+    height: 100%;
+    float: left;
+    padding: 20px;
 }
 
 .foreground {
@@ -96,35 +117,26 @@ h2 {
     justify-content: space-between;
 }
 
-.main {
-    width: 75%;
-    height: 150vh;
-    padding-top: 20px;
-    margin-bottom: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
 .main-page-container {
     padding-left: 150px;
     padding-right: 150px;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  background-color: white;
-  width:100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: white;
+    width:100%;
 }
 
 .graphic-text {
-  line-height: 3;
-  height: 450px;
-  text-align: center;
-  font-size: 30px;
-  color: white;
-  font-family: cooper-black-std, serif;
-  font-weight: 100;
-  font-style: normal;
+    line-height: 3;
+    height: 450px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: cooper-black-std, serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 .graphic-text-large {
-  font-size: 120px;
+    font-size: 120px;
 }
